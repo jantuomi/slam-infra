@@ -1,0 +1,17 @@
+{
+  "name": "deploy-ui-gcs",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "manual-trigger-fn": "node trigger.js",
+    "deploy": "node deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.18.0",
+    "@google-cloud/storage": "^5.18.1",
+    "jszip": "^3.7.1"
+  }
+}

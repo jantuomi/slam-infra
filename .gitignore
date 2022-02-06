@@ -1,0 +1,4 @@
+.terraform*
+sa.json
+node_modules/
+secrets.auto.tfvars

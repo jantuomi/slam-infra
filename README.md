@@ -1,4 +1,14 @@
-# SLAM terraform configs
+# SLAM infrastructure
+
+SLAM is a procedural, stack-based programming language inspired by Forth and Lisp. You can try SLAM online at https://slamlang.dev. This service is hosted in GCP and defined through the Terraform configs in this repository.
+
+SLAM is a hobby project and should be regarded as such.
+
+## Architecture
+
+![Service architecture](docs/Service_arch.png)
+
+![Deployment process](docs/Deployment_process.png)
 
 ## Running
 
